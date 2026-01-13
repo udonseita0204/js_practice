@@ -23,8 +23,19 @@ const JudgeScore=scores.map(
         }
     }
 )
+const Even=nums.map(
+    function evenfilter(num){
+            if(num%2===0){
+                return num
+            }
+            else{
+                return 0
+            }
+    }
+)
 
 console.log(decuple)
 console.log(uppernames)
 console.log(tax)
 console.log(JudgeScore)
+console.log(Even)
