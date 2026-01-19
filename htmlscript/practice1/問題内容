@@ -1,0 +1,17 @@
+問題①：入力内容をそのまま表示
+仕様
+
+名前を入力
+
+送信（ボタン or Enter）
+
+<p id="result"> に
+👉「こんにちは ○○ さん」と表示
+
+ヒント
+
+.value
+
+textContent
+
+submit + preventDefault
